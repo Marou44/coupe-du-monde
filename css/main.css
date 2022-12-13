@@ -12,17 +12,37 @@
    ========================================================================== */
 
 html {
-  color: #222;
+  color: rgb(5, 143, 249);
   font-size: 1em;
   line-height: 1.4;
+  text-align: justify;
+  background-color: #9b99e3;
+
+
+background-image: url("https://upload.wikimedia.org/wikipedia/fr/2/2a/Coupe_du_monde_des_clubs_de_la_FIFA.png");
+background-repeat: no-repeat;
+background-size: cover;
 }
 
+.container{
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.container img{
+  max-width: 100%;
+}
+
+h3 {text-decoration: underline; text-align:justify;  color:rgb(0, 0, 0)
+}
 h1 {
-  color: red;
+  color: rgb(168, 120, 8);
+  text-decoration: underline;
 }
-
-h2 {color: green;}
-
+p{color: rgb(0, 111, 222); text-align: justify;}
+h2 {text-decoration: underline;color:rgb(248, 228, 6)     }
+strong{ text-decoration: underline;  color:rgb(187, 143, 0);}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
